@@ -3,26 +3,41 @@
 ## Requirements
 <b>
 
-<i style="color:#ff9933;" class="fa-brands fa-git-alt"></i> [GitBash](https://git-scm.com/downloads/win)
+| [![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com/downloads/win) | **GitBash** |
+|--------------------------------------------|----------------------------------|
 
-> [!Important] How to configure SSH to git?
+> [!Important]
+> How to configure SSH to git?
 
-``` git config --global user.name "nombre" ```
-``` git config --global user.email "correo" ```
-``` ssh-keygen -t rsa -b 4096 -C "correo" ```
+```
+git config --global user.name "nombre"
+```
+``` 
+git config --global user.email "correo"
+```
+``` 
+ssh-keygen -t rsa -b 4096 -C "correo"
+```
 
-Useful Link
+Useful Links
+
 :link: [LearningGit](https://learngitbranching.js.org/)
 
-> [!Note] Frontend Sources
-<i style="color:blue;" class="fa-solid fa-code"></i> [VS Code](https://code.visualstudio.com/download)
-<i style="color:green;" class="fa-solid fa-circle-plus"></i> [PrettierCode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)*(Extension)*
-<i style="color:green;" class="fa-solid fa-circle-plus"></i> [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)*(Extension)*
-<i style="color:green;" class="fa-solid fa-circle-plus"></i> [HTML + CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)*(Extension)*
-<i style="color:green;" class="fa-solid fa-circle-plus"></i> [Markdown](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)*(Extension)*
+> [!Note]
+> Frontend Sources
 
+| [![VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/download) | **VS Code** |
+|--------------------------------------------|----------------------------------|
+
+> :zap: [PrettierCode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)*(Extension)*
+:zap: [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)*(Extension)*
+:zap: [HTML + CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)*(Extension)*
+:zap: [Markdown](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)*(Extension)*
+
+| [![HTML](https://skillicons.dev/icons?i=html)]() | **HTML** |
+|--------------------------------------------|----------------------------------|
 <details>
-<summary><b><i style="color:#e67300;" class="fa-brands fa-html5"></i> HTML</summary>
+<summary> HTML</summary>
 <ul>
 <li> Content </li>
 <li> Elements && Attributes </li>
@@ -31,12 +46,15 @@ Useful Link
 </ul>
 
 Useful Links
+
 :link: [W3Schools HTML](https://www.w3schools.com/html/default.asp)
 
 </details>
 
+| [![CSS](https://skillicons.dev/icons?i=css)]() | **CSS** |
+|--------------------------------------------|----------------------------------|
 <details>
-<summary><b><i style="color:blue;" class="fa-brands fa-css3-alt"></i> CSS</summary>
+<summary> CSS</summary>
 <ul>
 <li> Style </li>
 <li> Selectors </li>
@@ -48,6 +66,7 @@ Useful Links
 </ul>
 
 Useful Links
+
 :link: [W3Schools CSS](https://www.w3schools.com/css/default.asp)
 :link: [Font Awesome](https://fontawesome.com/search)
 :link: [Bootstrap Icons](https://icons.getbootstrap.com/)
@@ -57,10 +76,13 @@ Useful Links
 </details>
 <br>
 
-> [!Note] Backend Sources
+> [!Note]
+> Backend Sources
 
+| [![JAVA](https://skillicons.dev/icons?i=java)]() | **JAVA** |
+|--------------------------------------------|----------------------------------|
 <details>
-<summary><b><i style="color:#ff661a;" class="fa-brands fa-java"></i></i> JAVA</summary>
+<summary> JAVA</summary>
 <ul>
 <li> Class vs Object </li>
 <li> Inheritance </li>
@@ -72,14 +94,17 @@ Useful Links
 </ul>
 
 Useful Links
+
 :link: [W3Schools JAVA](https://www.w3schools.com/java/default.asp)
 :link: [Refactoring Guru](https://refactoring.guru/design-patterns)
 :link: [Challenge: DevTraining](https://app.codility.com/programmers/)
 :link: [Challenge: Hackerrank](https://www.hackerrank.com/dashboard)
 </details>
 
+| [![Stackoverflow](https://skillicons.dev/icons?i=postman)]() | **Architecture Patterns** |
+|--------------------------------------------|----------------------------------|
 <details>
-<summary><b><i style="color:#ff661a;" class="fa-solid fa-user"></i></i> Architecture Patterns</summary>
+<summary> Architecture Patterns</summary>
 <ul>
 <li> MVC </li>
 <li> JAVALIN </li>
@@ -88,6 +113,7 @@ Useful Links
 </ul>
 
 Useful Links
+
 :link: [PostmanDoc](https://learning.postman.com/)
 :link: [Javalin](https://javalin.io/documentation)
 :link: [HTMX](https://htmx.org/docs/)
