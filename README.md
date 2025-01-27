@@ -52,7 +52,7 @@ Useful Links
 
 </details>
 
-| [![CSS](https://skillicons.dev/icons?i=figma,css,bootsrap)]() | **CSS** |
+| [![CSS](https://skillicons.dev/icons?i=figma,css,bootstrap)]() | **CSS** |
 |--------------------------------------------|----------------------------------|
 <details>
 <summary>More Info</summary>
