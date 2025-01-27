@@ -5,7 +5,7 @@
 
 <b>
 
-| [![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com/downloads/win) | **GitBash** |
+| [![Git](https://skillicons.dev/icons?i=git,github)](https://git-scm.com/downloads/win) | **GitBash** |
 |--------------------------------------------|----------------------------------|
 
 > [!Important]
@@ -52,7 +52,7 @@ Useful Links
 
 </details>
 
-| [![CSS](https://skillicons.dev/icons?i=css)]() | **CSS** |
+| [![CSS](https://skillicons.dev/icons?i=figma,css,bootsrap)]() | **CSS** |
 |--------------------------------------------|----------------------------------|
 <details>
 <summary>More Info</summary>
@@ -79,7 +79,7 @@ Useful Links
 
 ## Backend Sources
 
-| [![JAVA](https://skillicons.dev/icons?i=java)]() | **JAVA** |
+| [![JAVA](https://skillicons.dev/icons?i=java,idea)]() | **JAVA** |
 |--------------------------------------------|----------------------------------|
 <details>
 <summary>More Info</summary>
@@ -101,7 +101,7 @@ Useful Links
 :link: [Challenge: Hackerrank](https://www.hackerrank.com/dashboard)
 </details>
 
-| [![Stackoverflow](https://skillicons.dev/icons?i=postman)]() | **Architecture Patterns** |
+| [![Stackoverflow](https://skillicons.dev/icons?i=postman,htmx)]() | **Architecture Patterns** |
 |--------------------------------------------|----------------------------------|
 <details>
 <summary>More Info</summary>
