@@ -1,6 +1,8 @@
 # Little-Bootcamp
+[![Logos](https://skillicons.dev/icons?i=git,github,vscode,figma,html,css,bootstrap,idea,java,htmx,postman)]()
 
 ## Requirements
+
 <b>
 
 | [![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com/downloads/win) | **GitBash** |
@@ -37,7 +39,7 @@ Useful Links
 | [![HTML](https://skillicons.dev/icons?i=html)]() | **HTML** |
 |--------------------------------------------|----------------------------------|
 <details>
-<summary> HTML</summary>
+<summary>More Info</summary>
 <ul>
 <li> Content </li>
 <li> Elements && Attributes </li>
@@ -54,7 +56,7 @@ Useful Links
 | [![CSS](https://skillicons.dev/icons?i=css)]() | **CSS** |
 |--------------------------------------------|----------------------------------|
 <details>
-<summary> CSS</summary>
+<summary>More Info</summary>
 <ul>
 <li> Style </li>
 <li> Selectors </li>
@@ -82,7 +84,7 @@ Useful Links
 | [![JAVA](https://skillicons.dev/icons?i=java)]() | **JAVA** |
 |--------------------------------------------|----------------------------------|
 <details>
-<summary> JAVA</summary>
+<summary>More Info</summary>
 <ul>
 <li> Class vs Object </li>
 <li> Inheritance </li>
@@ -104,7 +106,7 @@ Useful Links
 | [![Stackoverflow](https://skillicons.dev/icons?i=postman)]() | **Architecture Patterns** |
 |--------------------------------------------|----------------------------------|
 <details>
-<summary> Architecture Patterns</summary>
+<summary>More Info</summary>
 <ul>
 <li> MVC </li>
 <li> JAVALIN </li>
