@@ -25,8 +25,7 @@ Useful Links
 
 :link: [LearningGit](https://learngitbranching.js.org/)
 
-> [!Note]
-> Frontend Sources
+## Frontend Sources
 
 | [![VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/download) | **VS Code** |
 |--------------------------------------------|----------------------------------|
@@ -78,8 +77,7 @@ Useful Links
 </details>
 <br>
 
-> [!Note]
-> Backend Sources
+## Backend Sources
 
 | [![JAVA](https://skillicons.dev/icons?i=java)]() | **JAVA** |
 |--------------------------------------------|----------------------------------|
