@@ -30,10 +30,10 @@ Useful Links
 | [![VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/download) | **VS Code** |
 |--------------------------------------------|----------------------------------|
 
-> :zap: [PrettierCode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)*(Extension)*
-:zap: [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)*(Extension)*
-:zap: [HTML + CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)*(Extension)*
-:zap: [Markdown](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)*(Extension)*
+> :zap: [PrettierCode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)*(Extension)* <br>
+:zap: [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)*(Extension)* <br>
+:zap: [HTML + CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)*(Extension)* <br>
+:zap: [Markdown](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)*(Extension)* <br>
 
 | [![HTML](https://skillicons.dev/icons?i=html)]() | **HTML** |
 |--------------------------------------------|----------------------------------|
