@@ -42,10 +42,11 @@ Useful Links
 <li> Style </li>
 <li> Selectors </li>
 <li> Bem method </li>
+<li> Specificy Hierarchy </li>
+<li> Colors + Background </li>
+<li> Box Modeling </li>
+<li> Units </li>
 <li> Display: Block, inline, inline-block </li>
-<li> Position: absolute, sticky, relative </li>
-<li> Display: Flex </li>
-<li> Display: Grid </li>
 </ul>
 
 Useful Links
@@ -56,4 +57,9 @@ Useful Links
 :link: [W3Schools Bootstrap3](https://www.w3schools.com/bootstrap/default.asp)
 :link: [Figma](https://www.figma.com/login)
 :link: [W3Schools How to on HTML+CSS+JS](https://www.w3schools.com/howto/default.asp)
+
+```css
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+```
+
 </details>
