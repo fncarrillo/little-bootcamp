@@ -1,0 +1,124 @@
+/* Element Selector */
+body {
+    padding: 0px 60px 250px 60px;
+    font-size: 32px;
+}
+
+label {
+    color: red;
+}
+
+/* ID Selector */
+#btnSubmit {
+    background-color: green;
+}
+
+/* Class Selector */
+.fuenteEnNegrita {
+    font-weight: bold;
+}
+
+.fuenteEnVioleta {
+    color: blueviolet
+}
+
+* {
+    color: blue;
+}
+
+/* 
+    Specificied Hierarchy 
+    Inline -> Estilo que metemos en el HTML
+    ID
+    Class + pseudo-class
+    Element + pseudo-element
+*/
+
+div, p, a {
+    background-color: black;
+    font-size: 36px;
+}
+
+/* 
+    Metodologia BEM 
+    Block__Element-Modifier
+
+*/
+
+.presentacion {
+    margin: 10px;
+}
+
+.presentacion__p-cursiva {
+    font-style: italic;
+}
+
+.presentacion__a-cursiva {
+    font-style: italic;
+}
+
+#pruebaColor {
+    /* color: red; */
+    /* color: RED; */
+    /* color: rgb(255,0,0); */
+    /* color: rgba(255, 0, 0, 0.5); */
+    /* color: #F00; #FF0000*/
+    /*color: hsl(0, 100%, 50%); Hue Saturation Lightnes */
+    padding: 0px 8px 12px 16px;
+
+    background-color: bisque;
+    color: #50F;
+    border: 20px solid #50F;
+    border-width: 10px;
+
+    margin: 20px;
+    outline: 10px solid green;
+}
+
+/* Box Modeling */
+/* Outline -> Margin -> Border -> Padding -> Content */
+
+.div-cm{
+    margin: 10px;
+    width: 15cm;
+    height: 15cm;
+}
+
+.div-px{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.div-mm{
+    margin: 10px;
+    width: 50mm;
+    height: 50mm;
+}
+
+
+.div-porcentaje{
+    margin: 10px;
+    width: 20%;
+    height: 20%;
+    font-size: 1em;
+}
+
+.div-viewport{
+    margin: 10px;
+    width: 50vw;
+    height: 50vh;
+}
+
+.div-em{
+    margin: 10px;
+    width: 10em;
+    height: 10em;
+    font-size: 0.5em;
+}
+
+.div-rem{
+    margin: 10px;
+    width: 4rem;
+    height: 4rem;
+}
