@@ -1,0 +1,202 @@
+* {
+    padding: 20px;
+    margin: 0;
+}
+
+.tam-max-min {
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+
+    max-width: 100px;
+    min-width: 50px;
+
+    box-sizing: border-box;
+
+}
+
+.my-btn{
+    margin: 10px;
+    color: blue;
+}
+
+.my-btn:visited{
+    color: red;
+    padding: 10px;
+}
+
+.my-btn:hover{
+    color: green;
+    padding: 10px;
+}
+
+.my-btn:active{
+    color: yellow;
+    padding: 10px;
+}
+
+li:first-child{
+    color: red;
+}
+
+p::first-line {
+    color:blue;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 20px;
+}
+
+p::before {
+    content: "Alto gil";
+}
+
+p::after {
+    content: "Bajo gil";
+}
+
+p::selection {
+    color: white;
+    background-color: black;
+}
+
+.generic-container{
+    display: block;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.generic-container__inner-box{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: red;
+}
+
+
+.generic-container__inner-box2{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: gray;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.generic-container__inner-box2:nth-child(1){
+    top:0px;
+    left:0px;
+}
+
+.generic-container__inner-box2:nth-child(2){
+    top:10px;
+    left:10px;
+}
+
+.generic-container__inner-box2:nth-child(3){
+    top:20px;
+    left:20px;
+}
+
+.generic-container__inner-box2:nth-child(4){
+    top:30px;
+    left:30px;
+}
+
+#caja3{
+    z-index: 0;
+}
+
+.generic-container__inner-box3{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: gray;
+    position: static;
+    top: 0px;
+    left: 0px;
+}
+
+.flex-container{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    box-sizing: content-box;
+    padding: 0px;
+    margin-bottom: 100px;
+    flex-shrink: 10;
+    flex-direction: row;
+
+    /*
+        flex-direction: controla los ejes X-Y
+            - row -> horizontal: el eje-x es el principal
+            - column -> vertical: el eje-y es el principal
+    */
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    /*
+        Justify-content: 
+            - flex-start -> inicio
+            - center -> centro
+            - flex-end -> final
+            - space-between -> espacio entre los elementos
+            - space-around -> espacio alrededor de los elementos
+            - space-evenly -> espacio entre los elementos y alrededor de los elementos
+    */
+
+    align-items: center;
+
+    /*
+        Align-items:
+            - flex-start -> inicio
+            - center -> centro
+            - flex-end -> final
+            - stretch -> estirar
+            - baseline -> alineación de la base
+    */
+
+}
+
+.flex-container__inner-box:nth-child(4){
+    background-color: red;
+    /*flex-grow: 10; /* Que tanto crece respecto del resto */
+    align-self: flex-start;
+}
+
+.flex-container__inner-box:nth-child(1){
+    background-color: blue;
+    color:white;
+     /* Que tanto crece respecto del resto */
+}
+
+.flex-container__inner-box{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: gray;
+    flex-basis: 60px; /* Tamaño base de los elementos hijos */
+}
