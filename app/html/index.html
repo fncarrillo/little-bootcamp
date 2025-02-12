@@ -10,83 +10,86 @@
 
   <body>
 
-    <!--
-      Containers: formato del contenedor: container tiene un "margen", container-fluid ocupa todo su espacio
-    -->
-
-    <div class="container-fluid p-5 bg-primary text-white text-center">
-      <h1>My First Bootstrap Page</h1>
-      <p>Resize this responsive page to see the effect!</p>
+    <div class="container mt-5 bg-dark text-white">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione porro nemo inventore sequi natus, doloremque molestiae tempora recusandae aperiam nisi esse, incidunt qui. Consequatur, voluptas dolorem ex labore eius quia!
     </div>
-    
-    <!--
-      Bootstrap funciona en formato de grillas, por lo que es necesario pensar de esa manera: filas y columnas
-      - row: es una clase de bootstrap que se utiliza para crear una fila
-      - col: es una clase de bootstrap que se utiliza para crear columnas
-        el formato de bootstrap es col-<tamaño>-<cantidad de columnas>
-        los tamaños pueden ser: sm, md, lg, xl, xxl, siempre se especifica el mínimo, dado que bootstrap es responsive
-    -->
 
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3>Column 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-        <div class="col-sm-4">
-          <h3>Column 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-        <div class="col-sm-4">
-          <h3>Column 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-      </div>
-
-      <!--
-        Background colors: bootstrap tiene clases para cambiar el color de fondo de los elementos
-        .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light
-        aplica tambien para .text-color
-      -->
-
-      <div class="container p-5 my-5 border">
-        <h1>My First Bootstrap Page</h1>
-        <p>This container has a border and some extra padding and margins.</p>
-      </div>
-      
-      <div class="container p-5 my-5 bg-dark text-white">
-        <h1>My First Bootstrap Page</h1>
-        <p>This container has a dark background color and a white text, and some extra padding and margins.</p>
-      </div>
-      
-      <div class="container p-5 my-5 bg-primary text-white">
-        <h1>My First Bootstrap Page</h1>
-        <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
-      </div>
-
+    <div class="container-fluid mt-2 bg-primary text-dark text-center">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione porro nemo inventore sequi natus, doloremque molestiae tempora recusandae aperiam nisi esse, incidunt qui. Consequatur, voluptas dolorem ex labore eius quia!
     </div>
 
     <!--
-      Bootstrap tiene definidas componentes para mostrar "alertas" en la pantalla, requieren la clase alert y su correspondiente estilo
-      .alert-success, .alert-info, .alert-warning, .alert-danger, .alert-primary, .alert-secondary, .alert-light or .alert-dark
+        sm, md, lg, xl, xxl
     -->
 
-    <div class="container">
-      <div class="alert alert-success .alert-dismissible">
-        <strong>Success!</strong> Indicates a successful or positive action. <a href="#" class=".alert-link"> Google </a>
-        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-      </div>
-  
-      <div class="card col-2 center">
-        <div class="card-header">Header</div>
-        <div class="card-body">Content</div>
-        <div class="card-footer">Footer</div>
-      </div>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg p-2 bg-primary">
+                <h3>Column 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+            </div>
+            <div class="col-lg p-2 bg-info">
+                <h3>Column 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+            </div>
+            <div class="col-lg p-2 bg-secondary">
+                <h3>Column 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+            </div>
+            <div class="col-lg p-2 bg-light">
+                <h3>Column 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+            </div>
+        </div>
+    </div>
 
-      <div class="dropdown">
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg p-2 bg-primary">
+                <h3>Column 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+            </div>
+            <div class="col-lg-2 p-2 bg-info">
+                <h3>Column 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+            </div>
+            <div class="col-lg-5 p-2 bg-secondary">
+                <h3>Column 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+            </div>
+            <div class="col-lg p-2 bg-light">
+                <h3>Column 1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit culpa quisquam ipsam possimus at eius quod</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5 my-5 border">
+        <h1> ¡Hola Mundo! </h1>
+        <p> lorem </p>
+    </div>
+
+    <div class="container p-5 my-5 border">
+        <div class="alert alert-success alert-dismissible">
+            <strong>Success!</strong> Indicates a successful or positive action.
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+
+        <div class="alert alert-danger">
+            <strong>Error!</strong> Indicates a te mandaste un pete.
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    </div>
+
+    <div class="dropdown">
         <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
           Dropdown button
         </button>
@@ -95,14 +98,47 @@
           <li><a class="dropdown-item" href="#">Link 2</a></li>
           <li><a class="dropdown-item" href="#">Link 3</a></li>
         </ul>
-      </div>
-
-
     </div>
 
-
-
-
+    <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+              <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+      
+            <div class="modal-body p-5 pt-0">
+              <form class="">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+                <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+                <hr class="my-4">
+                <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"></use></svg>
+                  Sign up with Twitter
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"></use></svg>
+                  Sign up with Facebook
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"></use></svg>
+                  Sign up with GitHub
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
   </body>
 
