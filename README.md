@@ -2,7 +2,7 @@
 
 > En nuestra primer iteración comenzaremos con el desarrollo de un videojuego por turnos de rogue-like, donde nuestro protagonista deberá enfrentarse a inumerables enemigos hasta enfrentarse al jefe final y derrotarlo o morir en el intento.
 
-## Requerimientos
+## Requerimientos iniciales 1
 
 Inicialmente estaremos sentando las bases del mecanismo de pelea.
 Por el momento sólo nos informaron que se el jugador puede realizar por turno 1 solo movimiento:
