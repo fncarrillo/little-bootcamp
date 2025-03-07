@@ -17,7 +17,7 @@ public class Turno {
         fase(Movimiento.FASE_ATAQUE);
     }
 
-    public void fase(int fase){
+    private void fase(int fase){
         if(aplicaEnFase(this.movimientoJugador,fase)){
             this.movimientoJugador.aplicar();
         }
@@ -26,7 +26,7 @@ public class Turno {
         }
     }
 
-    public boolean aplicaEnFase(Movimiento movimiento, int fase){
+    private boolean aplicaEnFase(Movimiento movimiento, int fase){
         return movimiento.obtenerFaseEnQueAplica()==fase;
     }
 

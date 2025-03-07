@@ -6,7 +6,7 @@ import acciones.Movimiento;
 
 public class Mob {
 
-    private int hp;
+    protected int hp;
     private int hpMaxima;
     private int defensa;
     private int danio;
@@ -20,20 +20,8 @@ public class Mob {
         this.escudo = escudo;
     }
 
-    public int getHp() {
-        return hp;
-    }
-
     public int getHpMaxima() {
         return hpMaxima;
-    }
-
-    public int getEscudo() {
-        return escudo;
-    }
-
-    public void setHp(int hp){
-        this.hp = Math.min(hp,this.hpMaxima);
     }
 
     public void recibirDanio(int danio){

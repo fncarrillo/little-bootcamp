@@ -1,13 +1,14 @@
 package acciones;
 
+import mobs.Jugador;
 import mobs.Mob;
 
 public class Curar implements Movimiento{
 
     private double porcentajeCuracion;
-    private Mob objetivo;
+    private Jugador objetivo;
 
-    public Curar(double porcentajeCuracion, Mob objetivo) {
+    public Curar(double porcentajeCuracion, Jugador objetivo) {
         this.porcentajeCuracion = porcentajeCuracion;
         this.objetivo = objetivo;
     }
@@ -15,7 +16,7 @@ public class Curar implements Movimiento{
     @Override
     public void aplicar() {
         int curacion = (int) ((double) objetivo.getHpMaxima() * this.porcentajeCuracion);
-        objetivo.setHp(curacion + objetivo.getHp());
+        objetivo.aumentarVida(curacion);
     }
 
     @Override
